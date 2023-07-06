@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: SF Pro;
+    height: 100vh;
+    /* height: 3175px;
+    width: 1440px; */
+    background-color: #BEB5AD;
+}
+
+header {
+    height: 10vh;
+    /* height: 91px; */
+    background-color: #EAE9E9;
+    position: sticky;
+}
+
+header nav ul{
+    background-color: #EAE9E9;
+    vertical-align: top;
+    text-align: right;
+}
+
+header nav ul li {
+    font-size: 16px;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #634C39;
+}
+
+main{
+    /* width: 1440px;
+    height: 2340px; */
+    background-color:#BEB5AD;
+    }
+
+    /*-----MAIN/ENCABEZADO PAGINAS-----------*/
+
+#Encabezado{
+    height: 573px;
+}
+.FotoEncabezado{
+        height: 420px;
+        width: 691px;
+        border-radius: 20px;
+
+}
+
+h1{
+    text-align: left;
+    font-size: 180px;
+    color: #634C39;
+}
+
+h2{
+        font-size: 96px;
+        color: #634C39;
+    }
+
+    #copy{
+        height: 109px;
+        width: 611px;
+        color: #634C39;
+        font-size: 24px;
+        text-align: right;
+    }
+
+    #copyAlt{
+        height: 215px;
+        width: 669px;
+        margin: 31px;
+        color: #634C39;
+        font-size: 24px;
+        text-align: right;
+    }
+/*-----MAIN/PAGINA RECETAS-----------*/
+
+    .FotoReceta{
+        width: 357px;
+        height: 217px;
+        border-radius: 20;
+    }
+
+    .TextoReceta{
+        height: 265px;
+        width: 357px;
+        padding: 0%;
+        text-align: left;
+        vertical-align: top;
+        font-size: 20px;
+        color: #f5f5f5
+}
+
+/*-----MAIN/PAGINA ZONAS-----------*/
+.localidades{
+    color: #634C39;
+    font-size: 24px;
+    text-align: left;
+}
+
+/*-----MAIN/FORMULARIOS-----------*/
+#h2Alt{
+    font-size: 96px;
+    color: #f5f5f5;
+    text-align: right;
+}
+
+.textoForm{
+    font-size: 20px;
+    color: #f5f5f5;
+    text-align: right;
+}
+
+.labels{
+    font-size: 24px;
+    color: #f5f5f5;
+    text-align: left;
+}
+
+/*-----FOOTER-----------*/
+    footer{
+        font-size: 0;
+        background-color:#EAE9E9;
+        position: absolute;
+        /* width: 100%;
+        height: 190px;
+        left: 0px;
+        top: 2985px; */
+        height: 10vh;
+    }
+
+    footer nav ul li{
+        font-size: 16px;
+        /* margin: 40px; */
+        list-style-type: none;
+        text-decoration: none;
+        color: #634C39;
+    }
