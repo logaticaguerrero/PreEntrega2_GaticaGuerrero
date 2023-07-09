@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -30,8 +31,8 @@ header nav ul li {
     list-style-type: none;
 }
 
-header nav ul li a {
-    text-decoration: none;
+header div nav ul li a {
+    /* text-decoration: none; */
     color: #634C39;
 }
 
@@ -54,7 +55,7 @@ main{
 }
 
 h1{
-    text-align: left;
+    text-align: right;
     font-size: 180px;
     color: #634C39;
 }
@@ -143,3 +144,27 @@ h2{
         text-decoration: none;
         color: #634C39;
     }
+
+/*- ------- media queries ----------/*
+
+    /*dispositivos móviles */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 90px;
+    }
+}
+
+/*tablets */
+@media (min-width: 576px) and (max-width: 992px) {
+    h1{
+        font-size: 135px;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 992px) {
+    h1{
+        font-size: 180px;
+    }
+}
+

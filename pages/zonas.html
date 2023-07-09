@@ -12,38 +12,48 @@
 <body>
     <header class="container-fluid">
         <div class="row h-100">
-        <div class="col-xxl-4 xl-4 lg-4 h-100 logotipo"><a href="../index.html"><img width="193px" height="144px" src="../assets/icons/despacho27_logo.png" alt="logo"></a></div>        
-        <nav class="col-xxl-8 xl-8 lg-8 h-100">
-            <ul class="d-flex justify-content-end align-items-center h-100">
-                <li class="flex-fill">icono</li>
-                <li class="flex-fill"><a href="./nosotros.html">Nosotros</a></li>
-                <li class="flex-fill"><a href="./recetas.html">Recetas</a></li>
-                <li class="flex-fill"><a href="./zonas.html">Zonas de entrega</a></li>
-                <li class="flex-fill"><a href="./nosimporta.html">Nos importa</a></li>
-                <li class="flex-fill"><a href="./eshop.html">shop</a></li>
-                <li class="flex-fill">icono</li>
-            </ul>
-        </nav>
+        <div class="col-12 col-md-4 h-100 logotipo">
+            <a href="../index.html"><img width="193px" height="144px" src="../assets/icons/despacho27_logo.png" alt="logo"></a>
+        </div>
+        <div class="col-12 col-md-8 h-100">
+            <nav class="navbar navbar-expand-md justify-content-end h-100">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="./recetas.html">Recetas</a></li>
+                <li class="nav-item"><a class="nav-link" href="./zonas.html">Zonas de entrega</a></li>
+                <li class="nav-item"><a class="nav-link" href="./nosimporta.html">Nos importa</a></li>
+                <li class="nav-item"><a class="nav-link" href="./eshop.html">Shop</a></li>
+                </ul>
+            </div>
+            </nav>
+        </div>
         </div>
     </header>
 
-    <main class="container-fluid">
+    <main class="container-fluid w-100vh">
         <div class="row d-flex" id="Encabezado">
             <section class="col h-100 d-flex justify-content-start align-items-center">
-                <img class="FotoEncabezado" src="../assets/images/cerrar-foto-mujer-panadero-bolsa-pan.jpg" alt="Foto Encabezado">
+                <img class="img-fluid FotoEncabezado" src="../assets/images/cerrar-foto-mujer-panadero-bolsa-pan.jpg" alt="Foto Encabezado">
             </section>
-            
+    
             <section class="col h-100 d-flex flex-column justify-content-start align-items-end">
                 <h1 class="Titulo">
-                zonas de entrega
+                    zonas de entrega
                 </h1>
-                </section>    
+            </section>    
         </div>
-                
+    
         <div class="row d-flex justify-content-end align-items-start">
-        <p id="copyAlt">
-            Nuestros envíos son sin cargo siempre y cuando cubran el monto mínimo requerido. Cada semana tomamos pedidos hasta el día martes inclusive y lo llevamos a tu casa recién horneado los días viernes.
+            <p id="copyAlt">
+                Nuestros envíos son sin cargo siempre y cuando cubran el monto mínimo requerido. Cada semana tomamos pedidos hasta el día martes inclusive y lo llevamos a tu casa recién horneado los días viernes.
+            </p>
         </div>
+
+    </main>
 
         <div class="row d-flex align-items-start">
             <h2>
@@ -68,55 +78,58 @@
             </div>
 
             <div class="col xxl-6 d-flex align-items-center">
-            <img class="rounded" height="420px" width="691px" src="../assets/images/mapaentregas.jpg" alt="mapa entregas"></div>
+            <img class="img-fluid rounded" height="420px" width="691px" src="../assets/images/mapaentregas.jpg" alt="mapa entregas"></div>
             </div>
         </section>
 
-        <section class="container-fluid d-flex flex-row w-100" >
-            <div class="col d-flex justify-content-center align-items-start">  
-                <form class="col d-flex flex-column" action="" method="post">
-                <div class="mb-3">
-                    <label for="exampleInputLinea" class="form-label labels">nombre</label>
-                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label labels">correo</label>
-                    <input type="email" class="form-control" id="exampleInputemail">
-                </div>
-                <div class="mb-3">
-                    <label for="comentId" class="form-label labels">mensaje</label>
-                    <textarea class="form-control" id="comentId" cols="30" rows="10"></textarea>
+        <div class="row">
+            <div class="col-md-12">
+                <section class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                    <form class="d-flex flex-column">
+                        <div class="mb-3">
+                        <label for="exampleInputName1" class="form-label labels">nombre</label>
+                        <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                        <label for="exampleInputemail" class="form-label labels">correo</label>
+                        <input type="email" class="form-control" id="exampleInputemail">
+                        </div>
+                        <div class="mb-3">
+                        <label for="comentId" class="form-label labels">mensaje</label>
+                        <textarea class="form-control" id="comentId" cols="30" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
                     </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-                </button>
-                </form>
+                    <div class="col-sm-12 col-md-6">
+                    <aside class="d-flex flex-column">
+                        <h2 id="h2Alt">contactanos</h2>
+                        <p class="textoForm">Dejanos tus dudas e inquietudes y nos comunicaremos con vos a la brevedad. También podés escribirnos directamente a nuestro WhatsApp.</p>
+                        <p class="textoForm">contacto@despacho27.com</p>
+                        <p class="textoForm">+ 54 9 11 3311 9476</p>
+                    </aside>
+                    </div>
+                </div>
+                </section>
             </div>
-            <aside class="col d-flex flex-column justify-content-start align-items-end row-gap-30">
-                <h2 id="h2Alt">
-                contactanos
-                </h2>
-                <p class="textoForm">
-                Dejanos tus dudas e inquietudes y nos comunicaremos <br>  con vos a la brevedad. También podés escribirnos <br> directamente a nuestro WhatsApp.
-                </p>
-                <p class="textoForm">contacto@despacho27.com</p>
-                <p class="textoForm">+ 54 9 11 3311 9476</p>
-                
-            </aside>
-        </section>
+            </div>
     </main>
 
     <footer class="container-fluid d-flex flex-column">
-        <div class="h-10 d-flex justify-content-center align-items-end"
-        id="logotipo-footer"><img width="200px" height="140px" src="../assets/icons/despacho27_logo.png" alt="logo">
+        <div class="h-10 d-flex justify-content-center align-items-end" id="logotipo-footer">
+        <img width="200px" height="140px" src="../assets/icons/despacho27_logo.png" alt="logo">
         </div>
         <nav>
             <ul class="d-flex justify-content-end align-items-end>
-                <li><a href="http//:www.instagram.com/despacho.27"></a> Instagram</li>
-                <li><a href="#"></a> FAQ</li>
-                <li><a href="#"></a> Políticas de privacidad</li>
+                <li><a href="http//:www.instagram.com/despacho.27"></a>Instagram</li>
+                <li><a href="#"></a>FAQ</li>
+                <li><a href="#"></a>Políticas de privacidad</li>
             </ul>  
         </nav>
-
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
