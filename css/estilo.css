@@ -110,7 +110,7 @@ h2{
     }
 
     .TextoReceta{
-        height: 265px;
+        /* height: 265px; */
         width: 357px;
         padding: 0%;
         text-align: left;
@@ -208,7 +208,7 @@ h2{
     font-size: 16px;
 }
 .TextoReceta{
-    font-size: 16px;
+    font-size: 14px;
     }
 }
 
@@ -233,7 +233,7 @@ h2{
         font-size: 20px;
     }
     .TextoReceta{
-        font-size: 18px;
+        font-size: 16px;
         }
 }
 
