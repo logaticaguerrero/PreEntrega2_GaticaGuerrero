@@ -50,7 +50,7 @@ main{
 .navbar {
         --bs-navbar-padding-y: 0;
         --bs-navbar-brand-padding-y: 0;
-        
+
 }
 .navbar-nav{
     padding-left: 2em;
@@ -62,6 +62,14 @@ main{
     --bs-bg-opacity: 0;
     /* background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important; */
 }
+    /*-----MAIN/LANDING-----------*/
+
+.textoLanding{
+    font-size: 20px;
+    color: #634C39;
+}
+
+
 
     /*-----MAIN/ENCABEZADO PAGINAS-----------*/
 
@@ -88,7 +96,7 @@ h2{
 
     #copy{
         height: 109px;
-        width: 611px;
+        width: 648px;
         color: #634C39;
         font-size: 24px;
         text-align: right;
@@ -119,6 +127,24 @@ h2{
         color: #f5f5f5
 }
 
+/*-----MAIN/PAGINA NOSOTROS-----------*/
+h5{
+    font-size: 64px;
+    color: #f5f5f5;
+}
+
+.panesIzquierda{
+    height: 555px;
+    width: 555px;
+    text-align: left;
+}
+
+.panesDerecha{
+
+    height: 555px;
+    width: 555px;
+    text-align: right;
+}
 /*-----MAIN/PAGINA ZONAS-----------*/
 .localidades{
     color: #634C39;
@@ -126,8 +152,18 @@ h2{
     text-align: left;
 }
 
+/*-----MAIN/PAGINA NOS IMPORTA-----------*/
+#texto_biodiversidad{
+    /* display: inline-block; */
+    /* width: 811px;
+    height: 472px; */
+    text-align: right;
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
 /*-----MAIN/FORMULARIOS-----------*/
-#h2Alt{
+.h2Alt{
     font-size: 96px;
     color: #f5f5f5;
     text-align: right;
@@ -161,6 +197,36 @@ h2{
     --bs-btn-disabled-border-color: #634C39;
 }
 
+/*-----MAIN/ESHOP-----------*/
+.card{
+    width: 336px;
+    height: 399px;
+    border-radius: 6px;
+    --bs-card-bg: rgba(219, 215, 211, 0.2);
+    --bs-card-border-width: none;
+    box-shadow: #634C39;
+    align-items: center;
+    /* position: relative; */
+    overflow: visible;
+}
+
+.cardsFoto{
+    height: 147px;
+    width: 242px;
+    top: -50%;
+    transform: translateY(-50%);
+}
+
+.cardsTexto{
+    font-size: 48px;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.cardsPrecio{
+    font-size: 32px;
+    color: #634C39;
+}
 /*-----FOOTER-----------*/
     footer{
         font-size: 0;
@@ -195,7 +261,7 @@ h2{
     h2{
         font-size: 48px;
     }
-    #h2Alt{
+    .h2Alt{
         font-size: 48px;
     }
     #copyAlt{
@@ -210,6 +276,9 @@ h2{
 .TextoReceta{
     font-size: 14px;
     }
+#texto_biodiversidad{
+    font-size: 14px;
+    }
 }
 
 /*tablets */
@@ -220,7 +289,7 @@ h2{
     h2{
         font-size: 80px;
     }
-    #h2Alt{
+    .h2Alt{
         font-size: 80px;
     }
     #copyAlt{
@@ -235,6 +304,9 @@ h2{
     .TextoReceta{
         font-size: 16px;
         }
+    #texto_biodiversidad{
+        font-size: 16px;
+    }
 }
 
 /*Desktop*/
@@ -245,7 +317,7 @@ h2{
     h2{
         font-size: 96px;
     }
-    #h2Alt{
+    .h2Alt{
         font-size: 90px;
     }
     #copyAlt{
@@ -257,5 +329,8 @@ h2{
     .TextoReceta{
     font-size: 20px;
     }
+    #texto_biodiversidad{
+        font-size: 20px;
+        }
 }
 

@@ -5,120 +5,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/icons/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Despacho 27 • Nosotros</title>
 </head>
 <body>
     <header>
-        <div id="logotipo"><a href="../index.html"><img width="120px" height="90px" src="../assets/icons/despacho27_logo.png" alt="logo"></a></div>        <nav>
-            <ul>
-                <li>iconocarrito</li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./recetas.html">Recetas</a></li>
-                <li><a href="./zonas.html">Zonas de entrega</a></li>
-                <li><a href="./nosimporta.html">Nos importa</a></li>
-                <li><a href="./eshop.html">shop</a></li>
-                <li>iconousuario</li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary h-100">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="img-fluid" width="144px" height="144px" src="../assets/icons/despacho27_logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container-fluid d-flex">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="./nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./recetas.html">Recetas</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./zonas.html">Zonas de entrega</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./nosimporta.html">Nos importa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./eshop.html">Shop</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
-
-    <main>
-        <section class="Encabezado" >
-            <div class="FotoEncabezado">
-                <img src="../assets/images/pexels-marta-dzedyshko-7175448.jpg" alt="">
-            </div>
-            
-            </div>
-        </section>
-        <section class="Titulo">
-            <h1>
+    <main class="container-fluid w-100vh">
+        <div class="row d-flex row-gap-20" style="margin-bottom: 3em;">
+            <section class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start align-items-center">
+            <img class="img-fluid rounded height=420px width=691px" src="../assets/images/fotoEncabezado_nosotros.webp" alt="Foto Encabezado">
+            </section>
+            <section class="col-xl-6 col-lg-6 col-md-12 col-sm-12 d-flex flex-column justify-content-start align-items-end">
+                <h1 class="Titulo">
                 nosotros
-            </h1>
-            <div id="copy" >
-                <h6>
-                    Nuestros envíos son sin cargo siempre y cuando cubran el monto mínimo requerido. Cada semana tomamos pedidos hasta el día martes inclusive y lo llevamos a tu casa recién horneado los días viernes.                </h6>
-        </section>
-
-        <div>
-            <h1>
-                nuestros panes
-            </h1>
+                </h1>
+                <div class="container-fluid row align-items-end justify-content-end">
+                    <p id="copy">
+                    En DESPACHO 27 creemos en que los alimentos que ingerimos deben tener cuidadosos procesos de elaboración. Elegimos productos nobles, le decimos no a los ultraprocesados y creamos panes genuinos, respetando los tiempos de fermentación para que el aire haga su magia y genere esos alveolos tan hermosos de vemos al rebanar una hogaza.  Nuestros panes van a atraparte y ya nunca más vas a volver a comprar los del súper. Y nosotros vamos a estar ahí llevándotelos a tu casa.                    </p>
+                </div>
+            </section>
         </div>
 
-        <article id="masa_madre">
-            <h5>
-                la masa madre
-            </h5>
-            <p>
-                Se piensa que la masa madre es un estilo de pan “de moda” pero en verdad fue la forma tradicional de hacer TODO el pan previo a la invención de la levadura comercial hacia finales del siglo XIX. El pan apropiadamente hecho se hace usando masa madre. Hacer pan implica sólo tres ingredientes: harina, agua y un poco de sal. La industrialización no es mala en sí pero en el afán de lograr un producto más rápido y barato hemos olvidado la razón por la cual algunos procesos se hacían de una manera más consciente y paciente.En el caso del pan lo que hemos olvidado es la importancia de una fermentación natural, larga y lenta con masa madre. Pero ...¿qué es la masa madre? no es más que un fermento natural compuesto por harina y agua que no contiene ningún tipo de levadura añadida sino que es la propia harina con un sinfín de microorganismos interactuando que con el paso del tiempo y al contacto con el aire, provoca la fermentación de la masa de manera espontánea. “Alimentar” la masa madre a diario garantiza eterna masa madre para amasar de por vida si quisieras. ¿sabias que existen, incluso, masas madres de más de cien años? 
-            </p>
-        </article>
+        <div class="row d-flex align-items-end">
+            <div class="col" >
+                <h1>
+                nuestros <br> panes
+                </h1>
+            </div>
+        </div>
 
-        <article id="la_fermentacion">
-            <h5>
-                la fementación
-            </h5>
-            <p>
-                La fermentación es la clave para la salud. Todos los granos necesitan ser fermentados y necesitan para ello un cultivo de bacterias. Trabajar con cultivos naturales es difícil porque tienen vida propia. Pero es esencial y básico. Si no se hace de esa manera no se consiguen los nutrientes. El trigo, incluso en la forma de harina molida, es difícil de digerir para el cuerpo. Una de las ventajas de la fermentación larga de masa madre es que permite a las bacterias descomponer los carbohidratos y el gluten resistente y elástico de la masa. También libera los minerales sanos del grano para que nuestro cuerpo pueda absorberlos fácilmente. La fermentación de la masa madre tiene todas las variables de un sistema natural, demasiadas para ser manejadas a gran escala. Para simplificar el proceso los científicos dieron con un atajo fiable: la levadura comercial de acción rápida. Pero eso deja de lado la importancia de la fermentación. ️Sin fermentación los ácidos no descomponen al grano. El pan resulta más duro de digerir y cuando las cosas son difíciles de digerir, es tu sistema, tu cuerpo quien lo paga. Hoy en día se destaca la importancia del consumo de granos integrales pero pocos hablan de que los mismos necesitan estar fermentados.
-            </p>
-        </article>
+        <!-- <section class="text-start">
+            <div class="row d-flex align-items-start">
+                <div class="col">
+                <h2>team salado</h2>
+                </div>
+            </div>
+            </section> -->
 
-        <section id="formulario_contacto_1">
-            
-            <form action="" method="post">
-                <div>
-                    <label for="nombre">nombre</label>
-                </div>
-                <div>
-                    <input class="InputLinea" type="text" name="nombre">
-                </div>
-                <div>
-                    <label for="correo">correo</label>
-                </div>
-                <div>
-                    <input class="InputLinea" type="email" name="correo" id="correo">
-                </div>
-                <div>
-                    <label for="mensaje">mensaje</label>
-                </div>
-                <div>
-                    <textarea class="InputTexto" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                </div>
-            
-            </form>
-        </section>
-        
-        <aside id="formulario_contacto_2">
-            <h2>
-                contactanos
-            </h2>
-            <p>
-                Dejanos tus dudas e inquietudes y nos comunicaremos con vos a la brevedad. También podés escribirnos directamente a nuestro WhatsApp.
-            </p>
-            <p>
-                contacto@despacho27.com
-            </p>
-            <p>+ 54 9 11 3311 9476
-            </p>
-        </aside>
+            <section class="container-fluid d-flex flex-wrap w-100 g-1">
+                <article class="col-sm-6 panesIzquierda">
+                    <h5>la masa madre</h5>
+                    <p class="TextoReceta mt-2">Se piensa que la masa madre es un estilo de pan “de moda” pero en verdad fue la forma tradicional de hacer TODO el pan previo a la invención de la levadura comercial hacia finales del siglo XIX. El pan apropiadamente hecho se hace usando masa madre. Hacer pan implica sólo tres ingredientes: harina, agua y un poco de sal. La industrialización no es mala en sí pero en el afán de lograr un producto más rápido y barato hemos olvidado la razón por la cual algunos procesos se hacían de una manera más consciente y paciente.En el caso del pan lo que hemos olvidado es la importancia de una fermentación natural, larga y lenta con masa madre. Pero ...¿qué es la masa madre? no es más que un fermento natural compuesto por harina y agua que no contiene ningún tipo de levadura añadida sino que es la propia harina con un sinfín de microorganismos interactuando que con el paso del tiempo y al contacto con el aire, provoca la fermentación de la masa de manera espontánea. “Alimentar” la masa madre a diario garantiza eterna masa madre para amasar de por vida si quisieras. ¿sabias que existen, incluso, masas madres de más de cien años? </p>
+                </article>
+                <article class="col-sm-6 panesDerecha">
+                    <h5>la fermentación</h5>
+                    <p class="TextoReceta mt-2">La fermentación es la clave para la salud. Todos los granos necesitan ser fermentados y necesitan para ello un cultivo de bacterias. Trabajar con cultivos naturales es difícil porque tienen vida propia. Pero es esencial y básico. Si no se hace de esa manera no se consiguen los nutrientes. El trigo, incluso en la forma de harina molida, es difícil de digerir para el cuerpo. Una de las ventajas de la fermentación larga de masa madre es que permite a las bacterias descomponer los carbohidratos y el gluten resistente y elástico de la masa. También libera los minerales sanos del grano para que nuestro cuerpo pueda absorberlos fácilmente. La fermentación de la masa madre tiene todas las variables de un sistema natural, demasiadas para ser manejadas a gran escala. Para simplificar el proceso los científicos dieron con un atajo fiable: la levadura comercial de acción rápida. Pero eso deja de lado la importancia de la fermentación. ️Sin fermentación los ácidos no descomponen al grano. El pan resulta más duro de digerir y cuando las cosas son difíciles de digerir, es tu sistema, tu cuerpo quien lo paga. Hoy en día se destaca la importancia del consumo de granos integrales pero pocos hablan de que los mismos necesitan estar fermentados.</p>
+                </article>
+                <article class="col-sm-6 panesIzquierda">
+                    <h5>el sabor</h5>
+                    <p class="TextoReceta mt-2">Una hogaza de pan al ser horneada se convierte en una olla de presión que literalmente cocina los almidones de una manera que los hace deliciosos y digeribles. El pan elaborado con masa madre que respeta el proceso de fermentación es bastante ligero, ni demasiado liviano ni demasiado pesado. Con una corteza crocante, en su interior hay más aire, todo está bien abierto. El primer bocado de uno de estos panes es algo agrio (masa madre en inglés “sour dough” literalmente se traduce masa agria) y la primera reacción química del cuerpo es salivar. Este proceso es esencial para poner en marcha la digestión. Toda la cocina es alquimia, es transformación. Pero el pan es la alquimia suprema, hecha de aire, literalmente. Y lo que se necesita para lograr este alimento está en el aire, ese es su espíritu. ¡AMAMOS EL PAN!</p>
+                </article>
+                <article class="col-sm-6 panesDerecha">
+                    <h5>variedades</h5>
+                    <p class="TextoReceta mt-2">Integral<br>
+                        Elaborado con masa madre, 100% harina integral orgánica rebozado en salvado de trigo.<br><br>
+                        Semi integral con semillas<br>
+                        Elaborado con masa madre, harina de trigo 000 sin blanqueador, trigo integral, semillas activadas y tostadas, cebada y centeno.<br><br>
+                        Campo<br>
+                        Elaborado con masa madre, harina de trigo candeal, trigo integral y trigo blanco.</p>
+                </article>
+                <article class="col-sm-6 panesIzquierda">
+                    <h5>formatos</h5>
+                    <p class="TextoReceta mt-2">Hogaza o molde<br>
+                        A diferencia radica pura y exclusivamente en la forma, la masa es la misma al prepararse y sus caminos se bifurcan al momento de fermentar: los moldes lo hacen dentro de sus contenedores en los cuales luego se hornearán y las hogazas descansan sobre placas con su forma particular amasada a mano. A la hora de rebanar sí aparecerán rodajas diferentes y cada uno tendrá sus preferencias. Rodajas más parejas o más irregulares tipo tostones.</p>
+                </article>
+            </section>
+        </div>
+        </div>
 
-        
+
+        <div class="row">
+            <div class="col-md-12">
+                <section class="container-fluid" style="padding: 2em;">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-6">
+                            <form class="flex-column">
+                                <div class="mb-3">
+                                    <label for="exampleInputName1" class="form-label labels">nombre</label>
+                                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputemail" class="form-label labels">correo</label>
+                                    <input type="email" class="form-control" id="exampleInputemail">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="comentId" class="form-label labels">mensaje</label>
+                                    <textarea class="form-control" id="comentId" cols="30" rows="10"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="container-fluid col-sm-12 col-lg-6">
+                            <aside class="d-flex flex-column">
+                                <h2 class="h2Alt">contactanos</h2>
+                                <p class="textoForm">Dejanos tus dudas e inquietudes y nos comunicaremos con vos a la brevedad. También podés escribirnos directamente a nuestro WhatsApp.</p>
+                                <p class="textoForm">contacto@despacho27.com</p>
+                                <p class="textoForm">+ 54 9 11 3311 9476</p>
+                            </aside>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
 
-    <footer>
-        <div 
-        id="logotipo-footer"><img width="140px" height="100px" src="../assets/icons/despacho27_logo.png" alt="logo">
+<footer class="container-fluid flex-column">
+    <nav>
+        <div class="overflow-visible d-flex flex-column align-items-center" id="logotipo-footer">
+            <img class="img-fluid" width="100px" height="140px" src="../assets/icons/despacho27_logo.png" alt="logo">
+                <div class="container-fluid h-100">
+                    <ul class="d-flex justify-content-end align-items-center nav">
+                        <li class="nav-item"><a class="nav-link" href="http//:www.instagram.com/despacho.27">Instagram</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Políticas de privacidad</a></li>
+                    </ul>  
+                </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="http//:www.instagram.com/despacho.27"></a>instagram</li>
-                <li><a href="#"></a> FAQ</li>
-                <li><a href="#"></a> Políticas de privacidad</li>
-            </ul>  
-        </nav>
+    </nav>
+</footer>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
