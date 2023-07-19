@@ -145,6 +145,41 @@ h5{
     width: 555px;
     text-align: right;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas: 
+    "masamadre nuestrospanes"
+    "masamadre fermentacion"
+    "sabor fermentacion"
+    "sabor variedades"
+    "formatos variedades"
+    "formatos none";
+    column-gap: 3em;
+    row-gap: 3em;
+}
+
+div#nuestrospanes{
+    grid-area: nuestrospanes;
+}
+article#masamadre{
+    grid-area: masamadre;
+}
+article#fermentacion{
+    grid-area: fermentacion;
+}
+article#sabor{
+    grid-area: sabor;
+}
+article#variedades{
+    grid-area: variedades;
+}
+article#formatos{
+    grid-area: formatos;
+}
+
 /*-----MAIN/PAGINA ZONAS-----------*/
 .localidades{
     color: #634C39;
@@ -281,6 +316,9 @@ h5{
 #texto_biodiversidad{
     font-size: 14px;
     }
+    .textoLanding{
+        font-size: 14px;
+    }
 }
 
 /*tablets */
@@ -307,7 +345,10 @@ h5{
         font-size: 16px;
         }
     #texto_biodiversidad{
-        font-size: 16px;
+        font-size: 18px;
+    }
+    .textoLanding{
+        font-size: 18px;
     }
 }
 
@@ -324,15 +365,18 @@ h5{
     }
     #copyAlt{
         font-size: 24px;
-}
+    }
     #copy{
     font-size: 24px;
-}
+    }
     .TextoReceta{
     font-size: 20px;
     }
     #texto_biodiversidad{
         font-size: 20px;
         }
+    .textoLanding{
+        font-size: 20px;
+    }
 }
 
