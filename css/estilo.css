@@ -244,6 +244,12 @@ article#formatos{
     /* position: relative; */
     overflow: visible;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.25s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px #634C39;
 }
 
 .cardsFoto{
