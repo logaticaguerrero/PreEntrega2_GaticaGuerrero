@@ -1,0 +1,91 @@
+// DISPOSITIVOS MOVILES
+    @media (max-width: 576px) {
+        h1 {
+            font-size: 72px;
+        }
+        h2{
+            font-size: 48px;
+        }
+        .h2Alt{
+            font-size: 48px;
+        }
+        #copyAlt{
+            font-size: 16px;
+    }
+        .localidades{
+        font-size: 16px;
+    }
+    #copy{
+        font-size: 16px;
+    }
+    .TextoReceta{
+        font-size: 14px;
+        }
+    #texto_biodiversidad{
+        font-size: 14px;
+        }
+        .textoLanding{
+            font-size: 14px;
+        }
+    }
+    
+// TABLETS
+    @media (min-width: 576px) and (max-width: 992px) {
+        h1{
+            font-size: 135px;
+        }
+        h2{
+            font-size: 80px;
+        }
+        .h2Alt{
+            font-size: 80px;
+        }
+        #copyAlt{
+            font-size: 20px;
+        }
+        .localidades{
+            font-size: 20px;
+        }
+        #copy{
+            font-size: 20px;
+        }
+        .TextoReceta{
+            font-size: 16px;
+            }
+        #texto_biodiversidad{
+            font-size: 18px;
+        }
+        .textoLanding{
+            font-size: 18px;
+        }
+    }
+    
+// DESKTOP
+    @media (min-width: 992px) {
+        h1{
+            font-size: 135px;
+        }
+        h2{
+            font-size: 96px;
+        }
+        .h2Alt{
+            font-size: 90px;
+        }
+        #copyAlt{
+            font-size: 24px;
+        }
+        #copy{
+        font-size: 24px;
+        }
+        .TextoReceta{
+        font-size: 20px;
+        }
+        #texto_biodiversidad{
+            font-size: 20px;
+            }
+        .textoLanding{
+            font-size: 20px;
+        }
+    }
+    
+    
