@@ -1,4 +1,10 @@
 @import "./variables";
+@import "./header";
+@import "./encabezado";
+@import "./paginas";
+@import "./formulario";
+@import "./footer";
+@import "./mediaqueries";
 
 *{
     margin: 0;
@@ -13,26 +19,9 @@ body{
     margin-left: 0.25rem;
     margin-right: 0.25rem;
     margin-bottom: 0.50rem;
-    header{
-        nav{
-            @import "./header";
-        }
-    main{    
+    main{
         margin-top: 2%;
         margin-bottom: 2%;
         background-color:#BEB5AD;
-        div{
-            @import "./encabezado";
-        }
-        
-        @import "./paginas";
-        @import "./formulario";
-    footer{
-        @import "./footer";
-            }
-        }
     }
 }
-
-
-@import "./mediaqueries";

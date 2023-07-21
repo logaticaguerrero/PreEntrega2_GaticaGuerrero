@@ -2,20 +2,11 @@ header{
     height: 12vh;
     background-color: #EAE9E9;
     position: sticky;
-    nav{.navbar {
-        --bs-navbar-padding-y: 0;
-        --bs-navbar-brand-padding-y: 0;
-    }
         ul{
             background-color: #EAE9E9;
             padding: 1em;
             vertical-align: top;
             text-align: right;
-            .navbar-nav{
-                padding-left: 2em;
-                --bs-nav-link-color:$color-principal;
-                --bs-nav-link-hover-color: #D75E5E;
-                }
             li{
                 font-size: 16px;
                 list-style-type: none;
@@ -25,19 +16,22 @@ header{
             }
         }
     }
+
+.navbar {
+--bs-navbar-padding-y: 0;
+--bs-navbar-brand-padding-y: 0;
+
 }
-
-// .navbar {
-//     --bs-navbar-padding-y: 0;
-//     --bs-navbar-brand-padding-y: 0;
-
-// }
-// .navbar-nav{
-// padding-left: 2em;
-// --bs-nav-link-color:$color-principal;
-// --bs-nav-link-hover-color: #D75E5E;
-// }
+.navbar-nav{
+padding-left: 2em;
+--bs-nav-link-color:$color-principal;
+--bs-nav-link-hover-color: #D75E5E;
+}
 
 .bg-body-tertiary {
 --bs-bg-opacity: 0;
+}
+
+.nav-item{
+    color: $color-principal;
 }
