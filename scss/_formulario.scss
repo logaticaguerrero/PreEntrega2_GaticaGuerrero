@@ -1,3 +1,5 @@
+@import "./variables";
+
 .h2Alt{
     font-size: 96px;
     color: $color-secundario;
@@ -15,10 +17,11 @@
     color: $color-secundario;
     text-align: left;
 }
+
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: $color-primario;
-    --bs-btn-border-color:$color-primario;
+    --bs-btn-bg: $color-principal;
+    --bs-btn-border-color:$color-principal;
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #6D4E3B;
     --bs-btn-hover-border-color: #664F3C;
@@ -28,7 +31,7 @@
     --bs-btn-active-border-color: #6E4E3B;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: $color-primario;
-    --bs-btn-disabled-border-color: $color-primario;
+    --bs-btn-disabled-bg: $color-principal;
+    --bs-btn-disabled-border-color: $color-principal;
 }
 
