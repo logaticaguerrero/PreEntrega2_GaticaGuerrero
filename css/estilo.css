@@ -245,6 +245,7 @@ footer {
 
 body {
   font-family: SF Pro;
+  src: url(../assets/fonts/SF-Pro.ttf);
   height: 100vh;
   background-color: #BEB5AD;
   margin-left: 0.25rem;
